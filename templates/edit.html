@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+<form action="/logout" method="POST">
+    <input type="submit" value="Logout">
+</form>
+<h1>Edit {{title_on_template}}</h1>
+<form action="/edit" method="POST">
+    <p>ID:<input type="number" name="id"></p>
+    <p>Title:<input type="text" name="title"></p>
+    <p>Description:<input type="text" name="desc"></p>
+    <input type="submit" value="update">
+</form>
+</body>
+</html>
